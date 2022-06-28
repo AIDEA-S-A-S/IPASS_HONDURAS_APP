@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "938542548994",
+    "project_id": "ipass-pruebas",
+    "storage_bucket": "ipass-pruebas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938542548994:android:1135a0264f550b3a33bf1b",
+        "android_client_info": {
+          "package_name": "hn.ipass.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938542548994-i9edea4abegrkvfqctqqich0k3060d5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8DYRL8tMN-CbSDu5TdbYNbv2BqjuvEBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938542548994-i9edea4abegrkvfqctqqich0k3060d5l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "938542548994-7beer5a7sjmj75the96pjgpokjihurv4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hn.ipass.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

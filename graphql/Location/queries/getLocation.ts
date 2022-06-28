@@ -1,0 +1,143 @@
+export const getLocation = /* GraphQL */ `
+  query getLocation($_id: String) {
+    getLocation(_id: $_id) {
+      _id
+      address
+      name
+      admins {
+        _id
+        name
+        lastname
+        email
+        privilegeID {
+          _id
+          name
+          createdAt
+          updatedAt
+        }
+        active
+        country
+        token
+        verifyLogin
+        createdAt
+        updatedAt
+        canCreateHost
+        allEventWithAuth
+        canAccessToApp
+        canAccessToWeb
+        document
+        typeDocument
+        code
+        phone
+        QR
+      }
+      host {
+        _id
+        name
+        lastname
+        email
+        privilegeID {
+          _id
+          name
+          createdAt
+          updatedAt
+        }
+        active
+        country
+        token
+        verifyLogin
+        createdAt
+        updatedAt
+        canCreateHost
+        allEventWithAuth
+        canAccessToApp
+        canAccessToWeb
+        document
+        typeDocument
+        code
+        phone
+        QR
+      }
+      security {
+        _id
+        name
+        lastname
+        email
+        privilegeID {
+          _id
+          name
+          createdAt
+          updatedAt
+        }
+        active
+        country
+        token
+        verifyLogin
+        createdAt
+        updatedAt
+        canCreateHost
+        allEventWithAuth
+        canAccessToApp
+        canAccessToWeb
+        document
+        typeDocument
+        code
+        phone
+        QR
+      }
+      typeCheck
+      device {
+        _id
+        name
+        type
+        serialNumber
+        status
+        exists
+        actualLocation {
+          _id
+          address
+          name
+          typeCheck
+          createdAt
+          updatedAt
+          state
+          deletedDate
+        }
+        enableVideo
+        enableTalk
+        timeWait
+      }
+      createdAt
+      updatedAt
+      state
+      deletedDate
+      whoDeleted {
+        _id
+        name
+        lastname
+        email
+        privilegeID {
+          _id
+          name
+          createdAt
+          updatedAt
+        }
+        active
+        country
+        token
+        verifyLogin
+        createdAt
+        updatedAt
+        canCreateHost
+        allEventWithAuth
+        canAccessToApp
+        canAccessToWeb
+        document
+        typeDocument
+        code
+        phone
+        QR
+      }
+    }
+  }
+`
